@@ -25,3 +25,19 @@ print(message)
 # newline = \n 
 print("Hello,"+"\n\t" + first_name.title() + "\n\t\t" + last_name.title())
 
+
+# Stripping Whitespace
+
+favorite_language = '    python    '
+print("No whitespace stripping")
+print("My favorite programming language is "+favorite_language+"!")
+
+print("\nlstrip()")
+print("My favorite programming language is "+favorite_language.lstrip()+"!")
+
+print("\nrstrip()")
+print("My favorite programming language is "+favorite_language.rstrip()+"!")
+
+print("\nstrip()")
+print("My favorite programming language is "+favorite_language.strip()+"!")
+
