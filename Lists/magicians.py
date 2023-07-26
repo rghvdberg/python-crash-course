@@ -5,5 +5,3 @@
 magicians = ["alice", "david", "caroline"]
 for magician in magicians:
     print(magician)
-
-print("Hello World")
