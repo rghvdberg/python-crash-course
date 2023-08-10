@@ -16,28 +16,27 @@ full_name = first_name + " " + last_name
 
 # print(full_name)
 
-message = "Hello, " + full_name.title() +"!"
+message = "Hello, " + full_name.title() + "!"
 print(message)
 
 
 # Adding Whitespace to Strings with Tabs or Newlines
-# tab = \t 
-# newline = \n 
-print("Hello,"+"\n\t" + first_name.title() + "\n\t\t" + last_name.title())
+# tab = \t
+# newline = \n
+print("Hello," + "\n\t" + first_name.title() + "\n\t\t" + last_name.title())
 
 
 # Stripping Whitespace
 
-favorite_language = '    python    '
+favorite_language = "    python    "
 print("No whitespace stripping")
-print("My favorite programming language is "+favorite_language+"!")
+print("My favorite programming language is " + favorite_language + "!")
 
 print("\nlstrip()")
-print("My favorite programming language is "+favorite_language.lstrip()+"!")
+print("My favorite programming language is " + favorite_language.lstrip() + "!")
 
 print("\nrstrip()")
-print("My favorite programming language is "+favorite_language.rstrip()+"!")
+print("My favorite programming language is " + favorite_language.rstrip() + "!")
 
 print("\nstrip()")
-print("My favorite programming language is "+favorite_language.strip()+"!")
-
+print("My favorite programming language is " + favorite_language.strip() + "!")
