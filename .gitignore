@@ -1,3 +1,4 @@
 *.pdf
 venv
 pcc_3e-main
+__pycache__
