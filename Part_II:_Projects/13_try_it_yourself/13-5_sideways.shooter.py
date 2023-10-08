@@ -83,6 +83,7 @@ class Alien(Sprite):
         self.screen = game.screen
         self.rect = pygame.Rect(0, 0, 50, 50)
         self.y = float(self.rect.y)
+        self.x = float(self.rect.x)
         self.color = pygame.Color("red")
         self.radius = 20
 
@@ -100,12 +101,16 @@ class Game:
     def __init__(self) -> None:
         pygame.init()
         self.clock = pygame.time.Clock()
-        self.screen = pygame.display.set_mode((1200, 800))
+        self.screen_height = 600
+        self.screen_width = 800
+        self.screen = pygame.display.set_mode((self.screen_width, self.screen_height))
         self.ship = Ship(self)
         self.bullets = pygame.sprite.Group()
+        self.aliens = pygame.sprite.Group()
         self.background_color = pygame.Color("#182030")
         # https://www.color-name.com/dark-space.color
         pygame.display.set_caption("Sideways Shooter")
+        self._create_fleet()
 
     def run(self):
         while True:
@@ -149,6 +154,28 @@ class Game:
             self.ship.moving_up = False
         elif event.key == pygame.K_DOWN:
             self.ship.moving_down = False
+
+    def _create_fleet(self):
+        alien = Alien(self)
+        alien_width, alien_height = alien.rect.size
+
+        current_x, current_y = alien_width, alien_height
+        while current_y < (self.screen_height - 3 * alien_height):
+            while current_x < (self.screen_width - 2 * alien_width):
+                self._create_alien(current_x, current_y)
+                current_x += 2 * alien_width
+
+            # Finished a row; reset x value, and increment y value.
+            current_x = alien_width
+            current_y += 2 * alien_height
+
+    def _create_alien(self, x_position, y_position):
+        """Create an alien and place it in the row."""
+        new_alien = Alien(self)
+        new_alien.x = x_position
+        new_alien.rect.x = x_position
+        new_alien.rect.y = y_position
+        self.aliens.add(new_alien)
 
 
 game = Game()
