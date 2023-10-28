@@ -423,11 +423,11 @@
     -- (x) Speeding Up the Bullets
     -- (x) Refactoring _update_bullets() 
     --- 2023-09-24 11:43
-*** (-) Exercise 13-5: Sideways Shooter Part 2 [p305]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p305}
+*** (_) Exercise 13-5: Sideways Shooter Part 2 [p305]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p305}
 *** ( ) Ending the Game
-    -- ( ) Detecting Alien-Ship Collisions
-    -- ( ) Responding to Alien-Ship Collisions
-    -- ( ) Aliens That Reach the Bottom of the Screen
+    -- (x) Detecting Alien-Ship Collisions
+    -- (x) Responding to Alien-Ship Collisions
+    -- ( ) Aliens That Reach the Bottom of the Screen [p308]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p308}
     -- ( ) Game Over!
     -- ( ) Identifying When Parts of the Game Should Run
     -- ( ) Exercise 13-6: Game Over

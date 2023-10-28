@@ -10,7 +10,10 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = Color("#e6e6e6")
-        self.ship_speed = 3.5
+
+        # Ship settings
+        self.ship_speed = 1.5
+        self.ship_limit = 3
 
         # Bullet settings
         self.bullet_speed = 10.0
