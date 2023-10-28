@@ -427,12 +427,12 @@
 *** ( ) Ending the Game
     -- (x) Detecting Alien-Ship Collisions
     -- (x) Responding to Alien-Ship Collisions
-    -- ( ) Aliens That Reach the Bottom of the Screen [p308]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p308}
-    -- ( ) Game Over!
-    -- ( ) Identifying When Parts of the Game Should Run
-    -- ( ) Exercise 13-6: Game Over
-    - ( ) Summary
-** Chapter 14: Scoring
+    -- (x) Aliens That Reach the Bottom of the Screen [p308]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p308}
+    -- (x) Game Over!
+    -- (x) Identifying When Parts of the Game Should Run
+    -- (_) Exercise 13-6: Game Over
+    - (x) Summary
+** Chapter 14: Scoring [p312]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p312}
 *** ( ) Adding the Play Button
     - ( ) Creating a Button Class
     - ( ) Drawing the Button to the Screen
