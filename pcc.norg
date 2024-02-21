@@ -432,22 +432,22 @@
     -- (x) Identifying When Parts of the Game Should Run
     -- (_) Exercise 13-6: Game Over
     - (x) Summary
-** Chapter 14: Scoring [p312]{https://calibre.cupcakerob.nl/get/PDF/24/calibre-library?content_disposition=inline#p312}
-*** ( ) Adding the Play Button
-    - ( ) Creating a Button Class
-    - ( ) Drawing the Button to the Screen
-    - ( ) Starting the Game
-    - ( ) Resetting the Game
-    - ( ) Deactivating the Play Button
-    - ( ) Hiding the Mouse Cursor
-    - ( ) Exercise 14-1: Press P to Play
-    - ( ) Exercise 14-2: Target Practice
-*** ( ) Leveling Up
-    - ( ) Modifying the Speed Settings
-    - ( ) Resetting the Speed
-    - ( ) Exercise 14-3: Challenging Target Practice
-    - ( ) Exercise 14-4: Difficulty Levels
-*** ( ) Scoring
+** Chapter 14: Scoring [p312]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p312}
+*** (x) Adding the Play Button
+    - (x) Creating a Button Class
+    - (x) Drawing the Button to the Screen
+    - (x) Starting the Game
+    - (x) Resetting the Game
+    - (x) Deactivating the Play Button
+    - (x) Hiding the Mouse Cursor
+    - (_) Exercise 14-1: Press P to Play
+    - (_) Exercise 14-2: Target Practice
+*** (x) [Leveling Up]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p318}
+    - (x) Modifying the Speed Settings
+    - (x) Resetting the Speed
+    - (_) Exercise 14-3: Challenging Target Practice
+    - (_) Exercise 14-4: Difficulty Levels
+*** ( ) [Scoring]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p321}
     - ( ) Displaying the Score
     - ( ) Making a Scoreboard
     - ( ) Updating the Score as Aliens Are Shot Down
