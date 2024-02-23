@@ -447,46 +447,46 @@
     - (x) Resetting the Speed
     - (_) Exercise 14-3: Challenging Target Practice
     - (_) Exercise 14-4: Difficulty Levels
-*** ( ) [Scoring]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p321}
-    - ( ) Displaying the Score
-    - ( ) Making a Scoreboard
-    - ( ) Updating the Score as Aliens Are Shot Down
-    - ( ) Resetting the Score
-    - ( ) Making Sure to Score All Hits
-    - ( ) Increasing Point Values
-    - ( ) Rounding the Score
-    - ( ) High Scores
-    - ( ) Displaying the Level
-    - ( ) Displaying the Number of Ships
-    - ( ) Exercise 14-5: All-Time High Score
-    - ( ) Exercise 14-6: Refactoring
-    - ( ) Exercise 14-7: Expanding the Game
-    - ( ) Exercise 14-8: Sideways Shooter, Final Version
-*** ( ) Summary
+*** (x) [Scoring]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p321}
+    - (x) Displaying the Score
+    - (x) Making a Scoreboard
+    - (x) Updating the Score as Aliens Are Shot Down
+    - (x) Resetting the Score
+    - (x) Making Sure to Score All Hits
+    - (x) Increasing Point Values
+    - (x) Rounding the Score
+    - (x) High Scores
+    - (x) Displaying the Level
+    - (x) Displaying the Number of Ships
+    - (_) Exercise 14-5: All-Time High Score
+    - (_) Exercise 14-6: Refactoring
+    - (_) Exercise 14-7: Expanding the Game
+    - (_) Exercise 14-8: Sideways Shooter, Final Version
+*** (x) Summary
 ** Chapter 15: Generating Data
-*** ( ) Installing Matplotlib
+*** (x) Installing Matplotlib
 *** ( ) Plotting a Simple Line Graph
-    - ( ) Changing the Label Type and Line Thickness
-    - ( ) Correcting the Plot
-    -- ( ) Using Built-in Styles
-    -- ( ) Plotting and Styling Individual Points with scatter() 
-    -- ( ) Plotting a Series of Points with scatter() 
-    -- ( ) Calculating Data Automatically
-    -- ( ) Customizing Tick Labels
-    -- ( ) Defining Custom Colors
-    -- ( ) Using a Colormap
-    -- ( ) Saving Your Plots Automatically
-    -- ( ) Exercise 15-1. Cubes
-    -- ( ) Exercise 15-2: Colored Cubes
-    - ( ) Random Walks
-    -- ( ) Creating the RandomWalk Class
-    -- ( ) Choosing Directions
-    -- ( ) Plotting the Random Walk
-    -- ( ) Generating Multiple Random Walks
-    -- ( ) Styling the Walk
-    -- ( ) Exercise 15-3: Molecular Motion
-    -- ( ) Exercise 15-4: Modified Random Walks
-    -- ( ) Exercise 15-5: Refactoring
+    - (x) Changing the Label Type and Line Thickness
+    - (x) Correcting the Plot
+    -- (x) Using Built-in Styles
+    -- (x) Plotting and Styling Individual Points with scatter() 
+    -- (x) Plotting a Series of Points with scatter() 
+    -- (x) Calculating Data Automatically
+    -- (x) Customizing Tick Labels
+    -- (x) Defining Custom Colors
+    -- (x) Using a Colormap
+    -- (x) Saving Your Plots Automatically
+    -- (x) Exercise 15-1. Cubes
+    -- (x) Exercise 15-2: Colored Cubes
+    - (x) [Random Walks]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p347}
+    -- (x) Creating the RandomWalk Class
+    -- (x) Choosing Directions
+    -- (x) Plotting the Random Walk
+    -- (x) Generating Multiple Random Walks
+    -- (x) Styling the Walk
+    -- (x) Exercise 15-3: Molecular Motion
+    -- (_) Exercise 15-4: Modified Random Walks
+    -- (x) Exercise 15-5: Refactoring
     - ( ) Rolling Dice with Plotly
     -- ( ) Installing Plotly
     -- ( ) Creating the Die Class
