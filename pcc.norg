@@ -487,22 +487,22 @@
     -- (x) Exercise 15-3: Molecular Motion
     -- (_) Exercise 15-4: Modified Random Walks
     -- (x) Exercise 15-5: Refactoring
-    - ( ) Rolling Dice with Plotly
-    -- ( ) Installing Plotly
-    -- ( ) Creating the Die Class
-    -- ( ) Rolling the Die
-    -- ( ) Analyzing the Results
-    -- ( ) Making a Histogram
-    -- ( ) Customizing the Plot
-    -- ( ) Rolling Two Dice
-    -- ( ) Further Customizations
-    -- ( ) Rolling Dice of Different Sizes
-    -- ( ) Saving Figures
-    -- ( ) Exercise 15-6: Two D8s
-    -- ( ) Exercise 15-7: Three Dice
-    -- ( ) Exercise 15-8: Multiplication
-    -- ( ) Exercise 15-9: Die Comprehensions
-    -- ( ) Exercise 15-10: Practicing with Both Libraries
+    - (x) [Rolling Dice with Plotly]{https://calibre.cupcakerob.nl/get/PDF/10/calibre-library?content_disposition=inline#p354}
+    -- (x) Installing Plotly
+    -- (x) Creating the Die Class
+    -- (x) Rolling the Die
+    -- (x) Analyzing the Results
+    -- (x) Making a Histogram
+    -- (x) Customizing the Plot
+    -- (x) Rolling Two Dice
+    -- (x) Further Customizations
+    -- (x) Rolling Dice of Different Sizes
+    -- (x) Saving Figures
+    -- (_) Exercise 15-6: Two D8s
+    -- (_) Exercise 15-7: Three Dice
+    -- (_) Exercise 15-8: Multiplication
+    -- (x) Exercise 15-9: Die Comprehensions
+    -- (_) Exercise 15-10: Practicing with Both Libraries
     - ( ) Summary
 ** Chapter 16: Downloading Data
 ***  ( ) The CSV File Format
@@ -523,6 +523,7 @@
      -- ( ) Exercise 16-4: Automatic Indexes
      -- ( ) Exercise 16-5: Explore
 *** ( ) Mapping Global Datasets: GeoJSON Format
+
     -- ( ) Downloading Earthquake Data
     -- ( ) Examining GeoJSON Data
     -- ( ) Making a List of All Earthquakes
